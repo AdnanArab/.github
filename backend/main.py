@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime, timedelta
-import random
+import random  # Used for generating demo data - replace with real data sources in production
 
 app = FastAPI(title="Statistics API", version="1.0.0")
 
