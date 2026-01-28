@@ -1,1 +1,5 @@
-
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    - name: checkout code
+      uses: actions/checkout@v3
